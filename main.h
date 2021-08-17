@@ -11,7 +11,8 @@
 #include <TimeLib.h>
 #include <TFT_eSPI.h> 
 #include <SPI.h>
-#include <TJpg_Decoder.h>
+#include <TJpg_Decoder.h> //图片显示
+#include <Ticker.h>  //多任务库
 
 #include "font/ZdyLwFont_20.h"          //字体头文件
 #include "font/FxLED_32.h"
